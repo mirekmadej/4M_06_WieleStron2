@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="_4M_06_WieleStron2.NewPage1"
+             Title="NewPage1">
+    <ScrollView VerticalScrollBarVisibility="Default"
+                HorizontalScrollBarVisibility="Default">
+    <VerticalStackLayout>
+        <Label 
+            Text="druga strona"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+        <Label 
+            Text="Zgodnie z polskimi przepisami obowiązkowej rejestracji podlegają wszystkie jednostki morskie. Odpowiedni rejestr jachtów morskich prowadzi Polski Związek Żeglarski. Ponadto PZŻ prowadzi rejestrację jednostek klasowych. Jachty śródlądowe, których iloczyn długości oraz szerokości przekracza 20m2 muszą być rejestrowane w odpowiednich inspektoratach żeglugi śródlądowej. Mając na uwadze powyższe można wyróżnić trzy grupy jachtów według kryterium rejestracji sportowej PZŻ:
+
+    jachty śródlądowe – jednostki żaglowe wykorzystywane do żeglugi po wodach śródlądowych i niebędące klasowe.
+    jachty morskie – jednostki żaglowe wykorzystywane do żeglugi po wodach morskich
+    jachty klasowe – jednostki żaglowe przeznaczone do żeglugi regatowej i przynależące do klasy międzynarodowej lub narodowej zaakceptowanej przez PZŻ
+        klasa wolna – przepisy tej klasy narzucają konstruktorom warunki na kilka parametrów np. powierzchnie ożaglowania. Występuje znaczna różnorodność jachtów należących do klasy.
+        klasa ograniczona – przepisy znacznie bardziej ograniczające inwencję konstruktorów niż w klasie wolnej. Jachty należące do klasy ograniczonej podlegają formułom pomiarowym (np. formuła R[4]), których celem jest wyrównanie szans wszystkich startujących jednostek.
+        klasa monotypowa – wszystkie jednostki klasy są identyczne. Ze względu na techniczne trudności w wykonaniu identycznych jednostek wprowadza się tolerancję znaczących parametrów, co dopuszcza pewną niewielką różnice między jachtami."
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+        
+    </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
